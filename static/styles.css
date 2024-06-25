@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Noto+Sans:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    /* Remove a margem padrão do body */
+    background-color: #be1e9c;
+}
+
+.conteudo-pagina {
+    margin-top: 175px;
+    padding: 20px;
+    height: 1200px;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 1000;
+    top: 0px;
+    background-color: #db72c5a9;
+    display: grid;
+    box-shadow: 0px 20px 9px 0px rgb(124, 22, 99);
+    padding: 10px;
+}
+
+
+.logo {
+    margin-left: 0;
+    display: flex;
+    max-height: 150px;
+    border-radius: 400px;
+}
+
+
+.paginas {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: auto;
+    margin: 0;
+    justify-content: center;
+    /* centraliza os itens */
+    display: flex;
+    gap: 20px;
+
+}
+
+.paginas a {
+    border-radius: 100px;
+    max-height: 33px;
+    margin-top: 57px;
+    background-color: #e2e2e2;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    padding: 12px;
+    /* Espaçamento interno dos links */
+    transition: color 0.3s ease;
+    /* Transição suave para o efeito de hover */
+}
+
+.marketing {
+    color: white;
+    padding: 0;
+}
+
+.marketing h1 {
+    font-size: 50px;
+    text-align: left;
+}
+
+.marketing p {
+    padding: 10px;
+    font-size: 30px;
+    text-align: left;
+}
+
+.divisor {
+    text-align: center;
+    padding: 0;
+    margin-top: -244px;
+}
+
+.elementor_separtor img {
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    display: inline-block;
+}
+
+.imagem-evento img {
+    border-radius: 100px;
+    top: 788px;
+    padding: 20px 0px 0px;
+    max-width: 20px;
+    margin: 0;
+    max-width: 1000px;
+    position: absolute;
+    left: 24px;
+    box-shadow: -1px 20px 10px 2px rgb(0 0 0 / 54%)
+}
+
+.evento-details {
+    border-radius: 85px;
+    right: 18px;
+    top: 808px;
+    color: white;
+    padding: 97px 88px;
+    background-color: #8a127a;
+    box-shadow: 1px 20px 9px 2px rgb(58 34 35 / 54%);
+    position: absolute;
+    left: 850px;
+}
+
+.evento-details h1 {
+    padding: 14px;
+
+}
+
+.evento-details p {
+    padding: 23px;
+}
+
+.contato {
+    background-color: #dfc7c7;
+    padding: 9px 0%;
+    font-size: 70px;
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+}
+
+.contato h1 {
+    padding: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.sociais button {
+    cursor: pointer;
+    padding: 15px 14px;
+    width: 54px;
+    height: 52px;
+    border-radius: 87%;
+    font-size: 21px;
+    background-color: transparent;
+}
+
+.sociais a {
+    display: inline-flex;
+    margin: 1px;
+    padding: 2px 19px;
+    line-height: 1;
+    max-width: 6%;
+    max-height: 93px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}

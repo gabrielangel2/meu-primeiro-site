@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+
+<body>
+    <header class="menu">
+        <div class="container">
+            <div class="paginas">
+                <img class="logo" src="static/logo.png" />
+                <a href="{{ url_for('home') }}">inicio</a>
+                <a href="{{ url_for('amostras') }}">amostras</a>
+                <a href="{{ url_for('planos') }}">planos</a>
+                <a href="{{ url_for('agendamento') }}">agendamento</a>
+            </div>
+        </div>
+    </header>
+    <div class="conteudo-pagina">
+        <div class="marketing">
+            <h1>oferta de produtos estética</h1>
+            <p>Transforme sua pele com nosso sérum de beleza!</p>
+            <p>Descubra a revolução em cuidados com a pele com nosso novo sérum antienvelhecimento!</p>
+            <p>Obtenha uma pele mais jovem e radiante em poucas emanas!</p>
+            <p>Experimente nosso tratamento facial exclusivo e sinta a diferença!</p>
+            <p>Cuidados com a pele de alta qualidade para resultados incríveis!</p>
+        </div>
+        <div class="divisor">
+            <span class="elementor_separtor">
+                <img src="static\icons\divisor.svg" alt="divisao">
+            </span>
+            <div class="imagem-evento">
+                <a href="{{ url_for('evento') }}"> <!-- Corrigido o uso de url_for para 'evento' -->
+                    <img src="{{ url_for('static', filename='banner_stetica.png') }}" alt="Imagem evento" />
+                </a>
+            </div>
+            <form class="evento-details">
+                <h1>venha para o maior evento da região</h1>
+                <p>contemple um dos maiores eventos que iremos fornecer para os nossos clientes dia xx/xx/xxxx</p>
+            </form>
+        </div>
+    </div>
+    <div class="contato">
+        <h1>GOSTOU DO MEU SERVIÇO? SEGUE MEUS CONTATOS!!</h1>
+        <div class="sociais">
+            <a href="{{ url_for('whatsapp') }}"><button><img src="static\icons\whatsapp.svg" alt="zapp"></button></a>
+            <a href="{{ url_for('instagram') }}"><button><img src="static\icons\instagram.svg" alt="insta"></button></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
