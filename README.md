@@ -13,3 +13,9 @@ pip install -r requirements.txt
 '''
 $ flask --app main.py run
 '''
+
+## add procfile
+
+'''
+procfile
+'''
