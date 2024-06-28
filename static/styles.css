@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Noto+Sans:wght@100;400;700&display=swap');
 
+@media (max-width: 768px) {
+    /* Estilos para tablets e celulares */
+}
+
+@media (max-width: 480px) {
+    /* Estilos para celulares pequenos */
+}
+
+
 * {
     margin: 0;
     padding: 0;
