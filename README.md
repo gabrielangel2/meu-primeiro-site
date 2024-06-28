@@ -17,5 +17,5 @@ $ flask --app main.py run
 ## add procfile
 
 '''
-procfile
+Procfile
 '''
